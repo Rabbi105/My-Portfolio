@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbi's Portfolio</title>
+
+ <!--========== CSS Link =============-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--=========================== Home section  =============================-->
+    <section id="home">
+        <nav>
+            <a href="#home" class="logo"> M R Rabbi</a>
+            <i class="fa-solid fa-bars"></i>
+            <ul>
+                <li><a onclick="openMenu('home')" href="#home" class="nav-menu activ">Home</a></li>
+                <li><a onclick="openMenu('about')" class="nav-menu" href="#about">About</a></li>
+                <li><a onclick="openMenu('portfolio')" class="nav-menu" href="#portfolio">Portfolio</a></li>
+                <div class="btn-btn"><a href="#contact" class="nav-menu"><button class="btn">Hire me</button></a></div>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="home-content">
+                <h3>Hi! Myself</h3>
+                <h1>Ridwanul Rabbi</h1>
+                <h3>And I'm a <span id="multiple-text"></span></h3>
+                <p>
+                    I have been working in various freelance marketplaces for the last 2year. As a freelancer client satisfaction is my ultimate goal and I believe in quality work.
+                </p>
+                <div class="social-meadia">
+                    <a href="https://www.facebook.com/shuvo.islam.984991" target="_blank"><i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ridwanul-rabbi-0484a821b/" target="_blank"><i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/shuvo5206/" target="_blank"><i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="mailto:test@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+                <button class="cv-btn"><a href="resources/CV.pdf" class="btn" download>Download CV</a></button>
+            </div>
+            <div class="home-img">
+                <img src="resources/my-img2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <!--=========================== About section  =============================-->
+
+    <section id="about">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="resources/shuvo.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="about-description">Hello, I'm Ridwanul Rabbi, a passionate web developer with over 2 years of experience in crafting captivating online experiences. Specializing in<span class="hidePera"> HTML, CSS, and JavaScript, I thrive on turning ideas into polished websites that resonate with users. With a keen eye for detail and a commitment to delivering top-notch results, I've collaborated with clients worldwide to bring their visions to life. From sleek and modern designs to robust and intuitive interfaces, I bring creativity and technical expertise to every project. Let's work together to elevate your online presence and exceed your expectations. Find me at <span class="myemail">ridwanulrabbi80@gmail.com</span></span> <button class="readmore">..Read More</button>
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Designe</span><br>Single Page Design</li>
+                                <li><span>Language</span><br>HTML, CSS, JAVA SCRIPT</li>
+                                <li><span>Expert in</span><br>Landing Page Design</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-Present</span><br>Working on various online platform.</li>
+                                <li><span>2021-2022</span><br>Team lead at ZLL</li>
+                                <li><span>2021</span><br>Internship at Daraz</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020</span><br>Training at W3school</li>
+                                <li><span>2019</span><br>BSc From Rajshahi University</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- service======================================= -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>&#10004; PSD to HTML <br>&#10004; Figma to HTML <br>&#10004; PDF to HTML <br>&#10004; XD to HTML <br>&#10004; AI to HTML <br>&#10004; Rewrite HTML, CSS, JAVASCRIPT
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Bug Fixing</h2>
+                        <p>My focus lies in detecting and resolving website bugs meticulously, ensuring an optimal user experience. I swiftly address issues, enhancing your site's functionality. Let's work together to optimize your online presence.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Custom Design</h2>
+                        <p>Empower your brand with personalized web development solutions. From concept to launch, I craft custom websites that reflect your unique identity and drive results. Let's collaborate to build a digital presence.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h1>My Works</h1>
+        <!-- slider======================================================== -->
+        <div class="slide-container">
+            <div class="image-slider">
+              <div class="slide active">
+                <img src="resources/image (1).png" alt="">
+                <div class="info">
+                  <h2>1/5</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="resources/image (2).png" alt="">
+                <div class="info">
+                  <h2>2/5</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="resources/image (3).png" alt="">
+                <div class="info">
+                  <h2>3/5</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="resources/image (4).png" alt="">
+                <div class="info">
+                  <h2>4/5</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="resources/image (5).png" alt="">
+                <div class="info">
+                  <h2>5/5</h2>
+                </div>
+              </div>
+              <div class="navigation">
+                <div class="btN active"></div>
+                <div class="btN"></div>
+                <div class="btN"></div>
+                <div class="btN"></div>
+                <div class="btN"></div>
+              </div>
+            </div>
+          </div>
+
+        <p>Crafting captivating websites with HTML, CSS, and JavaScript. Elevating user experiences <span> through seamless design and functionality.</span></p>
+        <div class="fram">
+            <iframe src="resources/project-1/index1.html"></iframe>   
+        </div>
+        <div class="exp-btn">
+            <a href="resources/project-1/index1.html" target="_blank">Explore</a>
+        </div>
+    </section>
+    <!--=========================== Contact section  =============================-->
+    <section class="contact" id="contact">
+        <div class="form-area">
+            <form target="_self">
+                <div class="name field">
+                    <label for="">Your Name</label>
+                    <input class="clear" id="nameText" type="text">
+                </div>
+                <div class="email field">
+                    <label for="">Your Email</label>
+                    <input class="clear" type="email">
+                </div>
+                <div class="text field">
+                    <label for="">Your Message</label>
+                    <textarea name="" class="clear" cols="30" rows="10"></textarea>
+                </div>
+                <div class="btn-field"><button class="form-btn">Send Message</button></div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!--=========================== Footer section  =============================-->
+
+    <section class="footer" id="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Mrrabbi | All Right Reserved.</p>
+        </div>
+        <div class="footer-icontop">
+            <p id="greeting">Good Morning</p>
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </section>
+
+
+<!--====================== text script =========================-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+
+    <!-- ===========main script============= -->
+    <script src="app.js"></script>
+
+
+
+<!--====================== icon link =========================-->
+<script src="https://kit.fontawesome.com/5991ee58b4.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
